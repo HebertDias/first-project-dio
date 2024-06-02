@@ -1,0 +1,58 @@
+.banner img {
+  width: 248px;
+  height: 214px;
+}
+.banner-content {
+  padding-top: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.48px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(49, 168, 221, 0) 100%
+  );
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(51, 168, 219, 0.15) 0%,
+      rgba(0, 0, 0, 0.08) 100%
+    ),
+    url(../images/banner.png);
+}
+.banner h1 {
+  padding: 40px;
+  font-size: 40px;
+  font-weight: 900;
+  background: linear-gradient(180deg, #33a8db 0%, #1472b7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+}
+.banner p {
+  padding-bottom: 20px;
+  margin: 16px 0 24px;
+}
+header button {
+  color: #31a8dd;
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background-color: transparent;
+  border-image: linear-gradient(#3ba1cd, #1572b7);
+  border-image-slice: 10;
+  transition: 0.6s;
+}
+header button:hover {
+  cursor: pointer;
+  transform: scale(0.98);
+  background-color: #33a8db;
+  color: #fff;
+}
+header button:focus {
+  transform: scale(0.95);
+}

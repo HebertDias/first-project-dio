@@ -1,0 +1,22 @@
+footer {
+  cursor: pointer;
+  background: linear-gradient(
+    180deg,
+    rgba(51, 168, 219, 0) 0%,
+    rgba(51, 168, 219, 0.2) 99.99%,
+    rgba(51, 168, 219, 0.2) 100%
+  );
+}
+footer img {
+  margin: 10px;
+}
+footer a {
+  color: rgba(52, 169, 220, 0.5);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+footer p {
+  padding-bottom: 40px;
+}
