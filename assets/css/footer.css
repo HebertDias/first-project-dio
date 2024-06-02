@@ -1,3 +1,5 @@
+/* estilizacoes do rodepe da pagina */
+
 footer {
   cursor: pointer;
   background: linear-gradient(
@@ -7,15 +9,21 @@ footer {
     rgba(51, 168, 219, 0.2) 100%
   );
 }
+/* todo a img dentro do footer ira ter uma margem, para toda as direcoes, de 10px */
+
 footer img {
   margin: 10px;
 }
+/* customizacao apenas da tag <a> dentro do footer */
+
 footer a {
   color: rgba(52, 169, 220, 0.5);
-  text-decoration: none;
+  text-decoration: none; /* tira a estilizacao padrao de um link (sublinhado */
   font-size: 16px;
-  font-weight: 900;
+  font-weight: 900; /* negrito */
 }
+
+/* customizacao apenas da tag <p> dentro do footer */
 
 footer p {
   padding-bottom: 40px;

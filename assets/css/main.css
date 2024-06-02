@@ -1,9 +1,29 @@
+/* Aqui determino que apenas o fundo do <body> seja preto */
+
+body {
+  background-color: black;
+}
+/* Todas as sections terao 100px de distancia, verticalmente, de outros elementos, alem de ter o valor "auto" para os lados, centralizando-os. */
+
+section {
+  margin: 100px auto;
+}
+
+/* Limitei a larguda de tudo deentro da ID #course-conteent em 800px, deixando-o mais 
+`enxuto` (n sei se essa palavra existe ou se e isso q ela significa isso msm) */
+
 #course-content {
   width: 800px;
 }
+
+/* um padding de 20px, para todas as direcoes, em todos os <p> dentro do id course-content  */
+
 #course-content p {
-  padding: 10px;
+  padding: 20px;
 }
+
+/* estilizacoes de todos as tags <h2> */
+
 h2 {
   color: #33a8db;
   font-size: 2rem;
@@ -11,6 +31,8 @@ h2 {
   text-transform: uppercase;
   line-height: 2rem;
 }
+
+/* estilizacoes da class module */
 
 .module {
   border: 1px solid #33a8db;
@@ -24,21 +46,25 @@ h2 {
   background-color: rgb(40, 39, 39);
   box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
 }
+
+/* estilizacao apenas da tag <span> dentro da class module */
+
 .module span {
   color: #33a8db;
 }
 
+/* estilizacao do id transform-world */
+
 #transform-world {
   background-image: url(../images/woman-code.png);
   background-size: cover;
-  display: flex;
   position: relative;
   justify-content: center;
   width: 100%;
   height: 600px;
   background-position-y: -220px;
-  background-repeat: no-repeat;
 }
+/* estilizacao apenas da tag <p> dentro do id ransform-world */
 
 #transform-world p {
   position: absolute;
@@ -53,12 +79,16 @@ h2 {
   text-align: left;
   text-shadow: 9px 6px rgba(52, 169, 220, 0.5);
 }
+/* estilizacao apenas da tag <p> dentro do id professional-challenges */
+
 #professional-challenges p {
   font-size: 16px;
   height: 76px;
   text-align: center;
   margin: 20px 20%;
 }
+
+/* estilizacao apenas da tag <h2> dentro do id professional-challenges */
 
 #professional-challenges h2 {
   margin: 20px;

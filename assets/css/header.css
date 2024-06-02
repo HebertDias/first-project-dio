@@ -1,7 +1,11 @@
+/* estilizacao apenas da tag <img> dentro da class banner */
 .banner img {
   width: 248px;
   height: 214px;
 }
+
+/* estilizacao de toda a class banner-content */
+
 .banner-content {
   padding-top: 50px;
   color: white;
@@ -20,21 +24,29 @@
     ),
     url(../images/banner.png);
 }
+
+/* estilizacao apenas da tag <h1> deentro da class banner */
+
 .banner h1 {
-  padding: 40px;
+  padding: 50px 0 20px 0px;
   font-size: 40px;
   font-weight: 900;
-  background: linear-gradient(180deg, #33a8db 0%, #1472b7 100%);
+  background: linear-gradient(180deg, #33a8db 0%, #0c5a93 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
   text-transform: uppercase;
 }
+
+/* estilizacao apenas da tag <p> deentro da class banner */
+
 .banner p {
-  padding-bottom: 20px;
-  margin: 16px 0 24px;
+  margin: 0 30% 24px;
 }
+
+/* estilizacao apenas da tag <button> deentro do header, mas poderia ser .banner tbm */
+
 header button {
   color: #31a8dd;
   font-size: 1rem;
@@ -47,12 +59,19 @@ header button {
   border-image-slice: 10;
   transition: 0.6s;
 }
+
+/* ":hover" determina o que ocorrea com o <button> quando passarmos o mouse nele */
+
 header button:hover {
-  cursor: pointer;
+  cursor: pointer; /* cursor muda para o formato pointer */
+  /* o botao diminuira para 0.98, sendo sua escala padrao 1*/
   transform: scale(0.98);
-  background-color: #33a8db;
-  color: #fff;
+  background-color: #33a8db; /* quando passar o mouse, a cor de fundo ira mudar para a #33a8db*/
+  color: #fff; /* quando passar o mouse, a cor da fonte ira mudar para a #ff */
 }
+
+/* ":focus" segue a mesma logica q hover, mas apenas quando clicamos no button */
+
 header button:focus {
-  transform: scale(0.95);
+  transform: scale(0.95); /* ao clicarmos, o botao diminuira ainda mais */
 }

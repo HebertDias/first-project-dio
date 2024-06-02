@@ -1,17 +1,15 @@
+/* @import url() serve para importar um link, como a fonte Raleway do Google Fonts, ou pastas que estao em um nivel diferente, que e do caso das minhas pastas css  */
+
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-@import url(header.css);
-@import url(main.css);
-@import url(footer.css);
+@import url(header.css); /* cabecalho */
+@import url(main.css); /* principal; */
+@import url(footer.css); /* rodape */
+
+/* o "*" serve para aplicar alteracoes em TODO o HTML. Neste caso, deixei algums informacoes como padrao para nao repetir nos seletores */
 * {
   font-family: Raleway;
   margin: 0;
   box-sizing: border-box;
   color: #fff;
   text-align: center;
-}
-body {
-  background-color: black;
-}
-section {
-  margin: 100px auto;
 }
